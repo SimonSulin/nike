@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    height:100%;
+    width: 100%;
+    
+}
 body{
     background: white;
     font-family: sans-serif;
@@ -12,12 +17,10 @@ body{
     width:90%;
     height: 10%;
     margin: auto;
-    padding: 30px 0 ;
+    padding: 10px  ;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-
 }
 .logo{
     cursor: pointer;
@@ -41,7 +44,7 @@ body{
     background: black;
     position: absolute;
     left:0;
-    bottom: -2;
+    bottom:0;
 }
 
 .foot{
@@ -75,16 +78,26 @@ body{
     justify-content: center;
 
 }
+.main1{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
 #txt_welcome{
-    color: #ffffff;
-    font-size: 50px;
+	color: #fc4b08;
+	font: 60px 'Sansita One';
+	text-align: center;
+	text-shadow: 3px 3px 0px #393D48, 6px 6px 0px #5c5f72;
+    position: relative;
+    left: 5%;
 }
 .welcome:hover{
     opacity: 0.7;
 }
 #canvas{
-    width: 80vh;
-    position: absolute;
-    bottom: -200px;
-    left: 820px;
+    height: auto;
+    width: 30vh;
+    position: relative;
+    bottom: -40%;
+    right: 15%;
 }

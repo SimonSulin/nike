@@ -2,6 +2,7 @@ window.onload = function() {
     var canvas = document.getElementById("canvas");
     var context = canvas.getContext("2d");
 
+    context.scale(3, 3);
     context.beginPath();
     context.moveTo(15, 4);
     context.bezierCurveTo(15, 4, 11.181, 14.419, 13, 17);
