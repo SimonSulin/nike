@@ -243,6 +243,8 @@ a:focus {
   display: block;
   margin-bottom: 55px;
   color: #3496d8;
+  font-size: 50px;
+  text-align: center;
 }
 .img-store{
   width: 600px;
